@@ -1,5 +1,5 @@
 # chri-SMART
-> [스마트시티 만들기 키트](http://bplab.kr/shop_view/?idx=154)를 활용하여 크리스마스를 주제로 제작한 경북대학교 센트럴 파크
+> [스마트시티 만들기 키트](http://bplab.kr/shop_view/?idx=154)를 활용하여 크리스마스의 주제로 제작한 경북대학교 센트럴 파크
 
 ---
 
@@ -14,10 +14,9 @@
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
+- IoT를 활용한 크리스마스의 공원을 모형으로 구현했다. 
+- 2022 2학기 경북대학교 기초창의공학설계 수업에서 진행한 프로젝트이다.
+- IoT를 실생활에 접목 시킨 모형 작품을 만들고자 하여 진행했다.
 
 
 ## Technologies Used
@@ -27,12 +26,12 @@
 
 
 ## Features
-- 날씨 전광판
-- 스마트 가로등
+- 현재 기온 및 습도를 알려주는 전광판
+- 사람이 지나갈 때 더 밝아지는 스마트 가로등
 - 미디어 아트
-    - 움직이는 산타
-    - 소리 감지 트리
-    - 접근 감지 루돌프
+    - 반복적으로 움직이는 산타
+    - 소리 감지 시, 불이 켜지는 트리
+    - 접근 감지 시, 코가 밝아지는 루돌프
 
 
 ## Setup
@@ -44,10 +43,22 @@
 
 
 ## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
+- 날씨 전광판
+    - 전원 연결 시, 따로 건드리지 않아도 현재 기온과 습도를 알려주는 전광판이 작동한다.
 
-`write-your-code-here`
+- 스마트 가로등
+    - 손가락 또는 물체를 가로등에 가까이 접근하면 가로등이 더욱 밝아진다.
+    - 가로등에서 손가락 또는 물체를 떼면 가로등이 약간 어두워진다.
+    - 가로등의 기본 목적에 맞게 평소에는 약하게 빛나는 상태로 유지되다가, 사람이 지나가면 밝아지는 기능을 구현했다.
+
+- 움직이는 산타
+    - 전원 연결 시, 산타가 반복적으로 움직인다.
+
+- 불이 켜지는 트리
+    - 소리를 감지하면 트리의 불이 더 밝아진다.
+
+- 코가 밝아지는 루돌프
+    - 루돌프에 손가락을 가까이 접근하면 코가 밝아진다.
 
 
 ## Project Status
